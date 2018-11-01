@@ -6,16 +6,16 @@ app.set('view engine', 'ejs')
 //res.render(view, locals)
 var db;
 
-MongoClient.connect('mongodb://heroku_914w9hqk":heroku_914w9hqk@ds147213.mlab.com:47213/star-wars-quotes', (err, client) => {
-  // ... start the server
-  if (err) return console.log(err)
-  db = client.db('star-wars-quotes')
+// MongoClient.connect('mongodb://heroku_914w9hqk":heroku_914w9hqk@ds147213.mlab.com:47213/star-wars-quotes', (err, client) => {
+//   // ... start the server
+//   if (err) return console.log(err)
+//   db = client.db('star-wars-quotes')
 
-  // app.listen(3000, function() {
-  // console.log('listening on 3000')
-  // })
+//   // app.listen(3000, function() {
+//   // console.log('listening on 3000')
+//   // })
 
-})
+// })
 
 console.log('May Node be with you');
 
