@@ -11,9 +11,9 @@ MongoClient.connect('mongodb://noamsay:noamsay1@ds147213.mlab.com:47213/star-war
   if (err) return console.log(err)
   db = client.db('star-wars-quotes')
 
-  app.listen(3000, function() {
-  console.log('listening on 3000')
-  })
+  // app.listen(3000, function() {
+  // console.log('listening on 3000')
+  // })
 
 })
 
