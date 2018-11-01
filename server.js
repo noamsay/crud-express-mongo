@@ -6,7 +6,7 @@ app.set('view engine', 'ejs')
 //res.render(view, locals)
 var db;
 
-MongoClient.connect('mongodb://noamsay:noamsay1@ds147213.mlab.com:47213/star-wars-quotes', (err, client) => {
+MongoClient.connect('mongodb://heroku_914w9hqk":heroku_914w9hqk@ds147213.mlab.com:47213/star-wars-quotes', (err, client) => {
   // ... start the server
   if (err) return console.log(err)
   db = client.db('star-wars-quotes')
